@@ -129,7 +129,7 @@ function App() {
           <Route path="/" element={
             <Home connect={login} disconnect={disconnect} sign={signMessage} walletAddress={walletAddress} />
           } />
-          <Route path='/demo/space' element={<Scene charID={13} bgID={0} />} />
+          <Route path='/demo/space' element={<Scene charID={1} bgID={0} />} />
           {
             walletAddress ?
               <>
